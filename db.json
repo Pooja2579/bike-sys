@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "name": "pooja",
+      "phone": "7070219986",
+      "token": "token-7070219986-a35c4w",
+      "createdAt": "2026-05-28T02:13:41.117Z"
+    }
+  ],
+  "rides": [
+    {
+      "id": 1,
+      "driver": "Asha",
+      "from": "Station Square",
+      "to": "Tech Park",
+      "date": "2026-06-01",
+      "time": "09:00",
+      "seats": 1,
+      "price": 35,
+      "bike": "E-Bike",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "driver": "Ravi",
+      "from": "City Mall",
+      "to": "North Campus",
+      "date": "2026-06-01",
+      "time": "07:45",
+      "seats": 3,
+      "price": 28,
+      "bike": "Speedster",
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "driver": "Neha",
+      "from": "Tech Park",
+      "to": "Riverfront",
+      "date": "2026-06-01",
+      "time": "18:15",
+      "seats": 0,
+      "price": 40,
+      "bike": "Classic Cruiser",
+      "status": "filled"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "rideId": 1,
+      "passengerName": "pooja",
+      "phone": "7070219986",
+      "ride": {
+        "id": 1,
+        "driver": "Asha",
+        "from": "Station Square",
+        "to": "Tech Park",
+        "date": "2026-06-01",
+        "time": "09:00",
+        "seats": 1,
+        "price": 35,
+        "bike": "E-Bike",
+        "status": "open"
+      },
+      "bookedAt": "2026-05-28T02:14:18.436Z"
+    },
+    {
+      "id": 2,
+      "rideId": 3,
+      "passengerName": "pooja",
+      "phone": "7070219986",
+      "ride": {
+        "id": 3,
+        "driver": "Neha",
+        "from": "Tech Park",
+        "to": "Riverfront",
+        "date": "2026-06-01",
+        "time": "18:15",
+        "seats": 0,
+        "price": 40,
+        "bike": "Classic Cruiser",
+        "status": "filled"
+      },
+      "bookedAt": "2026-05-28T02:14:20.525Z"
+    }
+  ],
+  "otpStore": {}
+}
